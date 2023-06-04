@@ -36,11 +36,11 @@
   }
   
   .search-bar {
-    width: 100%;
-    padding: 0.5rem 0.5rem;
-    font-size: 0.9rem;
+    width: 90%;
+    padding: 0.5rem 0.4rem;
+    font-size: 0.8rem;
     border: none;
-  
+    border-radius: 4px;
     outline: 1px solid var(--gray);
     letter-spacing: 1px;
     color: var(--header-color);
@@ -73,7 +73,7 @@
     cursor: pointer;
   }
   .menu-item:hover {
-    font-size: xx-large;
+    font-size:1.66rem;
     cursor: pointer;
   }
   .menus-md {
@@ -149,7 +149,7 @@
   
   @media (min-width: 1024px) {
     .search-bar {
-      width: 35rem;
+      width: 34rem;
       padding: 0.7rem;
       font-size: 1rem;
     }
