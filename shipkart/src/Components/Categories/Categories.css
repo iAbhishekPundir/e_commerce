@@ -1,0 +1,59 @@
+.category-header {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: x-large;
+  font-weight: 800;
+  font-size: 2rem;
+  color: var(--primary);
+}
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.category-card {
+  width: 260px;
+  height: 260px;
+  position: relative;
+  margin: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.category-img {
+  height: 260px;
+  width: 260px;
+  box-shadow: 1px 1px 4px rgb(68, 64, 64);
+  border-radius: 10px;
+}
+
+.toggle-background {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+}
+
+.toggle-background:hover {
+  color: white;
+  transition: background 1s, transform 1s;
+}
+
+.category-info {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  font-size: large;
+}
+.category-shopNow {
+  position: absolute;
+  bottom: 30%;
+  left: 5%;
+  font-weight: bold;
+  font-size: large;
+  padding-bottom: 0.3rem;
+}
+.category-shopNow:hover {
+    transition: background 1s, transform 1s;
+}
