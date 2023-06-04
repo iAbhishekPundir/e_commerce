@@ -4,13 +4,13 @@ import { DataState } from "../../Contexts/Data/DataContext";
 
 export const SingleCategory = ({ category }) => {
   const { categoryName, description, img } = category;
-//   const navigate = useNavigate();
-//   const { dispatch } = DataState();
+  const navigate = useNavigate();
+  const { dispatch } = DataState();
 
   const handleCategoryClick = () => {
-    // navigate("/productlisting");
-    // dispatch({ type: "CLEAR_ALL_FILTERS" });
-    // dispatch({ type: "FILTER_BY_CATEGORIES", payload: category.categoryName });
+    navigate("/productlisting");
+    dispatch({ type: "CLEAR_ALL_FILTERS" });
+    dispatch({ type: "FILTER_BY_CATEGORIES", payload: category.categoryName });
   };
   return (
     <div
