@@ -1,3 +1,5 @@
+import "./App.css";
+import "./utils.css";
 import React from "react";
 import Mockman from "mockman-js";
 import { Routes, Route} from "react-router-dom"
