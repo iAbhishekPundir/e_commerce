@@ -1,9 +1,14 @@
 import React from "react";
 import "./Header.css";
 import headerImg from "./Images/cover.png";
+import { useNavigate } from "react-router-dom";
+import { DataState } from "../../Contexts/Data/DataContext";
 export const Header = () => {
+  const { dispatch } = DataState();
+  const navigate = useNavigate();
     const clickHandler = () => {
-        console.log("CLICKED")
+      dispatch({ type: "CLEAR_ALL_FILTERS" });
+      navigate(`/productlisting`);
     }
   return (
     <>
