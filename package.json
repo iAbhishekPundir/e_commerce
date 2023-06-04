@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "mockman-js": "^1.1.5",
-    "react-router": "^6.11.2",
-    "react-router-dom": "^6.11.2"
-  }
-}
