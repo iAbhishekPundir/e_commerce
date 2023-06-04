@@ -19,7 +19,7 @@ export const categories = [
   },
   {
     _id: uuid(),
-    categoryName: "Kid",
+    categoryName: "Kids",
     description:"New Trend",
     img:"https://images.pexels.com/photos/4715320/pexels-photo-4715320.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
