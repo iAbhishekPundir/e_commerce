@@ -10,6 +10,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
 }
 .category-card {
   width: 260px;
@@ -33,6 +34,7 @@
   width: 250px;
   height: 250px;
   position: absolute;
+  box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 .toggle-background:hover {
