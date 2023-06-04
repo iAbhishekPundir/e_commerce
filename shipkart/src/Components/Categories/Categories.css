@@ -50,12 +50,15 @@
 }
 .category-shopNow {
   position: absolute;
-  bottom: 30%;
+  bottom: 45%;
   left: 5%;
   font-weight: bold;
   font-size: large;
   padding-bottom: 0.3rem;
+  
+
 }
 .category-shopNow:hover {
+    color: white;
     transition: background 1s, transform 1s;
 }
