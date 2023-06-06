@@ -53,14 +53,14 @@ export const Footer = () => {
         </ul>
       </div>
       <p className="developedBy">
-        Developed By{" "}
+        
         <a
           href="https://abhishekpundir.netlify.app/"
           target="_blank"
           rel="noreferrer"
           className="developer_name"
         >
-          Abhishek Pundir 👦
+         Made with ❤  : Abhishek Pundir 
         </a>
       </p>
     </footer>
