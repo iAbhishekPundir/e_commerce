@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import { AiFillHeart, AiFillStar } from "react-icons/ai";
+import { AiFillHeart,  AiOutlineDelete } from "react-icons/ai";
 import { BsCartCheck, BsCartPlus } from "react-icons/bs";
-import { RiDeleteBin5Line } from "react-icons/ri";
 import "./SingleProduct.css";
 import {
   loginTocontinue,
@@ -105,7 +104,7 @@ export const SingleProduct = ({ product, deleteIcon }) => {
                 onClick={handleRemoveFromWishlist}
               >
                 {!deleteIcon && <AiFillHeart />}
-                {deleteIcon && <RiDeleteBin5Line />}
+                {deleteIcon && <AiOutlineDelete/>}
               </span>
             ) : (
               <button
