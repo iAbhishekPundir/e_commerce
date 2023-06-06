@@ -14,10 +14,12 @@ export const SingleCategory = ({ category }) => {
   };
   return (
     <div
-      className="category-card  image-container"
+      className="category-card  "
       onClick={handleCategoryClick}
     >
+      <div className="image-container">
       <img src={img} alt="categoryName" className="category-img" />
+      </div>
       <div className="toggle-background">
         <div className="category-info">
           <h3 className="category-name">{categoryName}</h3>

@@ -35,8 +35,8 @@ export const guestLoginhandler = async (
   navigate
 ) => {
   const creds = {
-    email: "arjun@gmail.com",
-    password: "rajput",
+    email: "abhishek@gmail.com",
+    password: "pundir",
   };
   setEmail(creds.email);
   setPassword(creds.password);

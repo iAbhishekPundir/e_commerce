@@ -7,7 +7,7 @@ import {
 } from "react-icons/ai";
 import { MdOutlineLocalMall } from "react-icons/md";
 import { RxCross1 } from "react-icons/rx";
-import logo from "../../Assets/shoppingCart.png";
+import logo from "../../Assets/cart-shopping.png";
 import "./Navbar.css";
 import { NavLink, useNavigate } from "react-router-dom";
 

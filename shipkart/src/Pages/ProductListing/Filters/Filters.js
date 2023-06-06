@@ -169,7 +169,7 @@ export const Filters = () => {
           Sizes
         </h4>
         <div className="flex direction-column">
-          {["S", "M", "L", "XL", "XXL"].map((size) => (
+          {["S", "M", "L", "XL"].map((size) => (
             <label htmlFor="" key={size}>
               <input
                 type="checkbox"

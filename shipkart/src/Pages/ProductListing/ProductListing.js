@@ -2,10 +2,9 @@ import "./ProductListing.css";
 import React, { useEffect } from "react";
 import { Filters } from "./Filters/Filters";
 import { DataState } from "../../Contexts/Data/DataContext";
-
+import { SingleProduct } from "../../Components/SingleProduct/SingleProduct";
 
 // import no_data from "../../Assets/no_data.svg";
-import { SingleProduct } from "../../Components/SingleProduct/SingleProduct";
 
 export const ProductListing = () => {
   const {
@@ -88,12 +87,12 @@ export const ProductListing = () => {
           <>
             {transformData().length === 0 && (
               <div>
-                <img
-                  // src={no_data}
+                {/* <img
+                  src={no_data}
                   alt="empty_product"
                   height={200}
                   width={200}
-                />
+                /> */}
                 <h2>Product not found ☹️</h2>
               </div>
             )}
