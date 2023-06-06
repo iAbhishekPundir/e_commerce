@@ -60,7 +60,7 @@ export const Footer = () => {
           rel="noreferrer"
           className="developer_name"
         >
-         Made with ❤  : Abhishek Pundir 
+         Made with ❤ by Abhishek Pundir 
         </a>
       </p>
     </footer>
