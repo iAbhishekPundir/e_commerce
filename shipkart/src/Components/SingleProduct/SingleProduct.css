@@ -1,9 +1,9 @@
 .product-card {
-  width: 17rem;
+  width: 18rem;
   display: flex;
   flex-direction: column;
-  margin-bottom: 1.5rem;
-  height: 29rem;
+  margin-bottom: 1.4rem;
+  height: 28rem;
   box-shadow: 0px 5px 15px rgba(90, 90, 90, 0.35);
   padding: 0.5rem 0.5rem;
   border-radius: 10px;
@@ -14,7 +14,7 @@
 }
 
 .product-card:hover {
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .card-header {
@@ -23,7 +23,8 @@
 
 .product-image {
   width: 100%;
-  height: 21rem;
+  height: 20rem;
+  border-radius: 2px;
 }
 .product-image:hover {
   cursor: pointer;
@@ -37,15 +38,12 @@
 .wislist-like:hover {
   color: red !important;
 }
-/* #btn-wishlist {
-  border: none;
-} */
 
 .trending {
   font-size: 0.9rem;
-  background-color: #fbbf24;
+  background-color: #fb923c;
   padding: 0.1rem 0.2rem;
-  border-radius: 2px;
+  border-radius: 0.1rem;
   color: #fff;
   position: absolute;
   right: 0%;
@@ -61,26 +59,11 @@
 }
 .liked {
   color: var(--red);
+
   cursor: pointer;
   font-size: 1.6rem;
   width: fit-content;
 }
-
-/* .rating-star {
-  background-color: var(--primary);
-  color: #fff;
-  padding: 0.2rem 0.2rem;
-  font-size: 0.8rem;
-  border-radius: 0.3rem;
-  display: flex;
-  justify-content: center;
-  margin-right: 1rem;
-  position:absolute;
-}
-
-.rating {
-  margin-left: 0.3rem;
-} */
 
 .prod-size {
   position: absolute;
@@ -90,18 +73,7 @@
   padding: 0.2rem 0.4rem;
   color: #fff;
 }
-.prod-rating::after {
-  content: "\2605";
-}
-.prod-rating {
-  background-color: #3b82f6;
-  border-radius: 0.1rem;
-  bottom: 0px;
-  color: #fff;
-  right: 0;
-  padding: 0.1rem 0.2rem;
-  position: absolute;
-}
+
 .product-name {
   font-size: 1.2rem;
   color: var(--header-color);
@@ -121,7 +93,7 @@
 .price-and-discount {
   display: flex;
   justify-content: space-between;
-  padding: 0.2rem 0.4rem;
+  padding: 0.2rem 0.5rem;
 }
 
 .prices {
@@ -162,6 +134,7 @@
   width: 100%;
   padding: 0.4rem;
   cursor: pointer;
+  border-radius: 4px;
 }
 .image-container {
   display: grid;
@@ -178,9 +151,13 @@
 }
 .add-to-cart:hover {
   cursor: pointer;
-  background-color: #0369a1;
+  background-color: #1d4ed8;
 }
-
+.go-to-cart:hover {
+  cursor: pointer;
+  background-color: #1d4ed8;
+  color: white;
+}
 .star-color-card {
   color: #ffd700;
 }

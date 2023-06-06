@@ -96,14 +96,6 @@ export const SingleProduct = ({ product, deleteIcon }) => {
         <p className="product-name">{itemName}</p>
         <div className="rating-like">
           <div className="rating-and-size">
-            <p className="ratings-info">
-              <span className="rating-star">
-                <span className="star-color-card">
-                  <AiFillStar />
-                </span>
-                <span className="rating">{rating}</span>
-              </span>
-            </p>
           </div>
 
           <div>
@@ -133,7 +125,9 @@ export const SingleProduct = ({ product, deleteIcon }) => {
           <span className="new-price">₹{newPrice}</span>
           <span className="old-price">₹{oldPrice}</span>
         </div>
-        <p className="discount">{discount}% OFF</p>
+        <p className="discount">{Math.floor(
+                    ((oldPrice - newPrice) / oldPrice) * 100
+                  )}% OFF</p>
       </div>
 
       {token && cart?.some((data) => data._id === product._id) ? (
