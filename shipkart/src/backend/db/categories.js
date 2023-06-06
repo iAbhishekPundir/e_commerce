@@ -21,6 +21,6 @@ export const categories = [
     _id: uuid(),
     categoryName: "Kids",
     description:"New Trend",
-    img:"https://images.pexels.com/photos/4715320/pexels-photo-4715320.jpeg?auto=compress&cs=tinysrgb&w=600",
+    img:"https://res.cloudinary.com/donqbxlnc/image/upload/v1648516896/fashify/dce84423-582a-4487-986b-46af90a7048e1647926860775-Allen-Solly-Junior-Girls-Navy-Blue--Off-White-Floral-Print-T-2_d2obqp.jpg",
   },
 ];
