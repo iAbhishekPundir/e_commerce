@@ -1,22 +1,26 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router } from "react-router-dom";
-import "./index.css";
 import App from "./App";
+import "./index.css";
 import { makeServer } from "./server";
 import { DataContextProvider } from "./Contexts/Data/DataContext";
 import { AuthContextProvider } from "./Contexts/Auth/AuthContext";
-
-// Call make Server
+import { OrderContextProvider } from "./Contexts/Data/OrderContext";
+import { AddressContextProvider } from "./Contexts/Data/AddressContext";
 makeServer();
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
       <DataContextProvider>
-        {/* <AuthContextProvider> */}
-          <App />
-        {/* </AuthContextProvider> */}
+        <AuthContextProvider>
+          <OrderContextProvider>
+            <AddressContextProvider>
+              <App />
+            </AddressContextProvider>
+          </OrderContextProvider>
+        </AuthContextProvider>
       </DataContextProvider>
     </Router>
   </React.StrictMode>,

@@ -238,7 +238,7 @@ export const products = [
     oldPrice: "2399",
     newPrice: "1439",
     rating: "4.3",
-    size: "XXL",
+    size: "XL",
     image:
       "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/7229767/2019/1/31/97d63969-943d-46d3-b9e0-6bf57b6428821548938509728-WROGN-Men-Blue-Slim-Fit-Mid-Rise-Clean-Look-Stretchable-Jean-1.jpg",
     category: "Men",
@@ -411,7 +411,7 @@ export const products = [
       "https://res.cloudinary.com/donqbxlnc/image/upload/v1648516528/fashify/11524206887991-Roadster-Men-Tshirts-9291524206887825-1_djqh04.webp",
     category: "Men",
     rating: "4.2",
-    size: "XXL",
+    size: "XL",
     description: "Men Navy Blue Printed Round Neck T-shirt",
     itemName: "Roadster",
     isTrending: true,

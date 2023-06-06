@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import { AiFillHeart, AiFillStar } from "react-icons/ai";
+import { AiFillHeart,  AiOutlineDelete } from "react-icons/ai";
 import { BsCartCheck, BsCartPlus } from "react-icons/bs";
-import { RiDeleteBin5Line } from "react-icons/ri";
 import "./SingleProduct.css";
 import {
   loginTocontinue,
@@ -90,23 +89,22 @@ export const SingleProduct = ({ product, deleteIcon }) => {
         />
         <div>
           <p className="prod-size">{size}</p>
-          <div>
-            <span class="prod-rating">{rating}</span>
-          </div>
         </div>
       </div>
       <div className="name-rating-like">
         <p className="product-name">{itemName}</p>
         <div className="rating-like">
+          <div className="rating-and-size">
+          </div>
+
           <div>
             {token && wishlist?.some((data) => data._id === _id) ? (
               <span
                 className="cart-like-btn liked"
-                id="btn-wishlist"
                 onClick={handleRemoveFromWishlist}
               >
                 {!deleteIcon && <AiFillHeart />}
-                {deleteIcon && <RiDeleteBin5Line />}
+                {deleteIcon && <AiOutlineDelete/>}
               </span>
             ) : (
               <button
@@ -126,7 +124,9 @@ export const SingleProduct = ({ product, deleteIcon }) => {
           <span className="new-price">₹{newPrice}</span>
           <span className="old-price">₹{oldPrice}</span>
         </div>
-        <p className="discount">{Math.floor(((oldPrice- newPrice) / oldPrice) * 100)}% OFF</p>
+        <p className="discount">{Math.floor(
+                    ((oldPrice - newPrice) / oldPrice) * 100
+                  )}% OFF</p>
       </div>
 
       {token && cart?.some((data) => data._id === product._id) ? (
