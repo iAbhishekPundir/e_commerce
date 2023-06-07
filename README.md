@@ -32,7 +32,7 @@ $ npm start
 - Checkout
   * Payment Gateway Integration
 
-# Built using 
+# Tech Stack Used 
 - React JS  
 - React Context API + useReducer  
 - React Router  
