@@ -5,7 +5,11 @@
     padding: 1rem;
     border-radius: 4px;
   }
-  
+.new-added-address{
+  padding: 0.4rem;
+  border:2px solid var(--primary);
+  border-radius: 4px;
+}
   .My-Address-heading {
     padding: 1rem 0rem;
     text-align: left;
