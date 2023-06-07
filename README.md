@@ -16,29 +16,29 @@ $ npm start
 - Single Product Page  
 - Filters by:  
   * Price
-  * Category
-  * Sizes
+  * Category  
   * Ratings
-- Search  
+  * Sizes 
 - Wishlist Management  
 - Cart Management  
+- Search 
 - Loading & Alerts  
 - Authentication:  
   * Sign-up
   * Login
-  * Logout
-  * Address Management
+  * Logout  
+- Address Management
 
 - Checkout
   * Payment Gateway Integration
-- Fully Responsive
 
 # Built using 
 - React JS  
 - React Context API + useReducer  
-- React Router v6  
+- React Router  
 - Vanilla CSS for styling  
 - MockBee for backend  
-- Razorpay payment gateway
+- Hosted on netlify
+  * Check here - https://ship-kart.netlify.app/
 
 
