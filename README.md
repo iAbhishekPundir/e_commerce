@@ -1,5 +1,8 @@
-# shipkart
 
+![cart-shopping](https://github.com/iAbhishekPundir/e_commerce/assets/60387390/3c1d7c20-2c7b-417d-bb75-81e14bd1a88f)   
+# "Shop with Heart, Sail with ShipKart !!  
+
+----------------------------
 # How to install and run locally ?  
 
 $ git clone https://github.com/iAbhishekPundir/e_commerce.git  
